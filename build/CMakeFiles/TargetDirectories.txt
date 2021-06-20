@@ -1,0 +1,3 @@
+C:/Dev/Maya/TurbinZ/build/CMakeFiles/TurbinZ.dir
+C:/Dev/Maya/TurbinZ/build/CMakeFiles/ALL_BUILD.dir
+C:/Dev/Maya/TurbinZ/build/CMakeFiles/ZERO_CHECK.dir

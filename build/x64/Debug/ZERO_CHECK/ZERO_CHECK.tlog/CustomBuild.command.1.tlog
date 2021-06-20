@@ -1,0 +1,10 @@
+^C:\DEV\MAYA\TURBINZ\BUILD\CMAKEFILES\FF83B82C371575962172DD5560F5BE68\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/Maya/TurbinZ -BC:/Dev/Maya/TurbinZ/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Dev/Maya/TurbinZ/build/Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
